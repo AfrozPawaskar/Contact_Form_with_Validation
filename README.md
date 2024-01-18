@@ -1,6 +1,6 @@
 # Contact Form with Validation
 
-A simple HTML contact form with client-side validation using JavaScript.
+A simple HTML CSS contact form with client-side validation using JavaScript.
 
 ## Usage
 
