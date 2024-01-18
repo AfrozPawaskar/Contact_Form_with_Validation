@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="frm">
+        <form id="myForm" onsubmit="return validations()">
+            <h2>Contact Us</h2>
+            
+            <div class="frmGrp">
+                <label for="userFname">First Name</label>
+                <input type="text" name="fname" id="userFname" placeholder="Enter First Name">
+                <span id="emptyName"></span>
+            </div>
+
+            <div class="frmGrp">
+                <label for="mail">E-mail Id</label>
+                <input type="email" name="emailId" id="mail" placeholder="Enter E-mail">
+                <span id="emptyEmail"></span>
+            </div>
+
+            <div class="frmGrp">
+                <label for="mob">Mobile No.</label>
+                <input type="number" name="phone" id="mob" placeholder="Contact Number">
+                <span id="emptyMob"></span>
+            </div>
+            <div class="frmGrp">
+                <label for="pass">Password</label>
+                <input type="password" name="paswrd" id="pass" placeholder="Password">
+                <span id="emptyPass"></span>
+            </div>
+            <div class="frmGrp">
+                <label for="cpass">Confirm Password</label>
+                <input type="password" name="paswrd" id="cpass" placeholder="Confirm Password">
+                <span id="emptyCpass"></span>
+            </div>
+
+            <button  type="submit" id="submitButton">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="validations.js"></script>
+</body>
+
+</html>
